@@ -1,11 +1,4 @@
 /*
-* ----------------------------------------------------
-Author       : Ideas_Factory
-Template Name: Riyad - Creative vCard / Resume / CV / Portfolio
-* ----------------------------------------------------
-*/
-
-/*
 * -----------------------------------------------------
 *  01.Common Styles 
 *  02.Preloader 
@@ -1887,6 +1880,13 @@ section.resume .sec__content {
 
 .msg_success p {
   color: #1FB4DA;
+}
+
+.contact .map {
+    margin-top: 10px;
+    width: 6000px;
+    height: 350px;
+
 }
 
 /*End Contact Section*/

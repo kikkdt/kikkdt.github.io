@@ -690,7 +690,7 @@ $(function() {
         showCursor: !1
       });
   $("body").append(
-    '<div class="options_box animate_options_box"><div class="cog"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></div><div class="options"><h4>select color</h4><div class="colors_box"><div><span class="color2 c__check" data-theme="color-yellow.css" title="Yellow"></span><span class="color1" data-theme="color-pink.css" title="pink"></span><span class="color3" data-theme="color-purple.css" title="Purple"></span></div><div><span class="color4" data-theme="color-green.css" title="Green"></span><span class="color5" data-theme="color-red.css" title="Red"></span><span class="color6" data-theme="color-blue.css" title="Blue"></span></div></div></div></div>'
+    '<div class="options_box animate_options_box"><div class="cog"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></div><div class="options"><h4>select color</h4><div class="colors_box"><div><span class="color6 c__check" data-theme="color-blue.css" title="Blue"></span><span class="color1" data-theme="color-pink.css" title="Pink"></span><span class="color3" data-theme="color-purple.css" title="Purple"></span></div><div><span class="color4" data-theme="color-green.css" title="Green"></span><span class="color5" data-theme="color-red.css" title="Red"></span><span class="color2" data-theme="color-yellow.css" title="Yellow"></span></div></div></div></div>'
   ),
     $(".options_box .cog").on("click", function() {
       $(".options_box").toggleClass("animate_options_box");
